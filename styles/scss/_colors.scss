@@ -1,0 +1,11 @@
+$primary-color: #272c40;
+$secondary-color: #ea5d3f;
+$tertiary-color: #4053A0; 
+
+$colors: ("gray": #f6f6f6, "blue":#0196a1, "black": #1F1F1F);
+
+@each $color, $code in $colors {
+    .bg-#{$color} {
+        background-color: $code;
+    }
+}

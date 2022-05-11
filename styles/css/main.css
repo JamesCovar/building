@@ -1,0 +1,182 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400&display=swap");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css");
+.bg-gray {
+  background-color: #f6f6f6; }
+
+.bg-blue {
+  background-color: #0196a1; }
+
+.bg-black {
+  background-color: #1F1F1F; }
+
+/* section One*/
+.small-text {
+  font-size: .8rem; }
+
+.small-box {
+  max-width: 250px;
+  margin-top: 30px; }
+
+.medium-box {
+  max-width: 520px; }
+
+section, .one {
+  margin-top: 50px; }
+
+/* section Two */
+.card {
+  max-width: 85%;
+  min-width: 85%;
+  background-color: #272c40;
+  border-radius: 0px;
+  border: 0;
+  max-height: 500px;
+  min-height: 500px; }
+
+.edificio {
+  object-fit: cover;
+  object-position: 50% 60%;
+  max-height: 500px;
+  min-height: 500px;
+  width: 100%; }
+
+.white-text {
+  color: white; }
+
+.text-card {
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px; }
+
+.white {
+  color: white; }
+
+.subtitle {
+  font-size: .7rem; }
+
+.seemore {
+  color: white;
+  margin-right: 10px; }
+
+.buttonIcon {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  position: absolute;
+  bottom: 30px; }
+
+.main {
+  background-color: #ffffff; }
+
+.bold {
+  font-weight: bold; }
+
+header {
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto; }
+  header .logo {
+    margin-right: 25%; }
+  header .d-inline-flex {
+    width: 50%; }
+  header .navButton .button {
+    background-color: #ea5d3f;
+    color: #ffffff;
+    padding: 10px;
+    margin-top: -10px; }
+
+section .margin {
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto; }
+
+section .about h4 {
+  color: #4053A0; }
+
+section .about .title {
+  color: #272c40;
+  font-size: 1.8rem; }
+
+section .about .experience {
+  margin-top: 50px; }
+  section .about .experience .title {
+    font-size: 2rem;
+    color: #272c40;
+    font-weight: bold; }
+  section .about .experience .subtitle {
+    font-size: 1rem; }
+
+section .testimonials {
+  margin-top: 50px;
+  padding-top: 70px;
+  margin-left: 7.5%;
+  margin-right: 7.5%; }
+  section .testimonials h4 {
+    color: #4053A0; }
+  section .testimonials .title {
+    color: #272c40;
+    font-size: 1.8rem; }
+  section .testimonials .experience {
+    margin-top: 50px; }
+    section .testimonials .experience .title {
+      font-size: 2rem;
+      color: #272c40;
+      font-weight: bold; }
+    section .testimonials .experience .subtitle {
+      font-size: 1rem; }
+
+section .fullWidth {
+  width: 100%; }
+
+.avatar {
+  margin-top: 50px;
+  padding-bottom: 60px; }
+  .avatar .profilePhoto {
+    object-fit: cover;
+    border-radius: 50%;
+    height: 85px;
+    width: 85px; }
+  .avatar .name {
+    font-size: 1.3rem; }
+  .avatar .subtitle {
+    font-size: 0.8rem; }
+
+footer {
+  text-align: center;
+  color: white;
+  padding-top: 50px;
+  padding-bottom: 50px; }
+
+@media (max-width: 1130px) {
+  header .button {
+    display: none; } }
+
+@media (max-width: 768px) {
+  section {
+    width: 100%; }
+    section .margin {
+      width: 100%;
+      border: 1px solid; }
+    section .card {
+      margin-left: auto;
+      margin-right: auto; } }
+
+@media (max-width: 480px) {
+  section {
+    width: 100%; }
+  header {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto; }
+    header .logo {
+      width: 100%; }
+    header .d-inline-flex {
+      display: block !important;
+      width: 100%; }
+    header .navButton .button {
+      background-color: #ea5d3f;
+      color: #ffffff;
+      padding: 10px;
+      margin-top: -10px;
+      display: none; } }

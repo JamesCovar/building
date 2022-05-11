@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css");
+@import 'colors';
+
+
+/* section One*/
+.small-text{
+    font-size: .8rem;
+}
+
+.small-box{
+    max-width: 250px;
+    margin-top: 30px;
+}
+
+.medium-box{
+    max-width: 520px;
+}
+
+section, .one{
+    margin-top: 50px;
+}
+
+/* section Two */
+.card{
+    max-width: 85%;
+    min-width: 85%;
+    background-color: #272c40;
+    border-radius: 0px;
+    border: 0;
+    max-height: 500px;
+    min-height: 500px;
+}
+
+.edificio{
+    object-fit:cover;
+    object-position: 50% 60%;
+    max-height: 500px;
+    min-height: 500px;
+    width: 100%;
+}
+
+.white-text{
+    color: white;
+}
+
+.text-card{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.white{
+    color:white;
+}
+.subtitle{
+    font-size: .7rem;
+}
+
+.seemore{
+    color: white;
+    margin-right: 10px;
+}
+.buttonIcon{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    position: absolute;
+    bottom: 30px;
+}
+
+
+.main{
+    background-color: #ffffff;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+header{
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+
+    .logo{
+        margin-right: 25%;
+    }
+
+    .d-inline-flex{
+        width: 50%;
+    }
+
+    .navButton{
+        .button{
+            background-color: #ea5d3f;
+            color: #ffffff;
+            padding: 10px;
+            margin-top: -10px;
+            
+        }
+    }
+}
+section{
+    .margin{
+        width: 85%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    @mixin moduleOverview{
+        h4{
+            color: $tertiary-color
+        }
+        .title{
+            color: $primary-color;
+            font-size: 1.8rem;
+        }
+
+        .experience{
+            margin-top: 50px;
+            .title{
+                font-size: 2rem;
+                color: $primary-color;
+                font-weight: bold;
+            }
+            .subtitle{
+                font-size: 1rem;
+            }
+        }
+    }
+
+    .about{
+        @include moduleOverview;
+    }
+
+    .testimonials{
+        @include moduleOverview;
+        margin-top: 50px;
+        padding-top: 70px;
+        margin-left: 7.5%;
+        margin-right: 7.5%;
+        
+    }
+
+    .fullWidth{
+        width: 100%;
+    }
+
+}
+
+.avatar{
+    margin-top: 50px;
+    padding-bottom: 60px;
+    .profilePhoto{
+        object-fit: cover;
+        border-radius: 50%;
+        height: 85px;
+        width: 85px;
+    }
+
+    .name{
+        font-size: 1.3rem;
+    }
+    .subtitle{
+        font-size: 0.8rem;
+    }
+
+    
+}
+
+footer{
+    text-align: center;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+@media (max-width: 1130px) {
+header{
+    .button{
+        display: none;
+    }
+}
+
+
+}
+
+@media (max-width: 768px) {
+ section{
+    width: 100%;
+    .margin{
+        width: 100%;
+        border: 1px solid;
+    }
+
+    .card{
+        margin-left: auto;
+        margin-right: auto;
+    }
+     
+ }
+}
+
+@media (max-width: 480px) {
+    section{
+        width: 100%;
+    }
+
+    header{
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    
+        .logo{
+            width: 100%;
+        }
+    
+        .d-inline-flex{
+            display: block !important;
+            width: 100%;
+        }
+    
+        .navButton{
+            .button{
+                background-color: #ea5d3f;
+                color: #ffffff;
+                padding: 10px;
+                margin-top: -10px;
+                display: none;
+                
+            }
+        }
+    }
+}
+
+
+
