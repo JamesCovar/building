@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/JamesCovar/building#readme",
   "dependencies": {
+    "animate.css": "^4.1.1",
     "node-sass": "^7.0.1"
   }
 }
